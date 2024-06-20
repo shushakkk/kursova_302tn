@@ -1,0 +1,29 @@
+.news{
+    background-color:#140c0c;
+    &_title{
+        font-family: 'Times New Roman', Times, serif;
+        color: #29d4be;
+        padding-top: 30px;
+        text-align: center;
+    }
+    &_item{
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        &:last-child{
+            padding-bottom: 30px;
+        }
+    }
+    &_img{
+        width: 300px;
+        height: 168px;
+    }
+    &_change{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #cfc3c3;
+        padding-left: 25px;
+        max-width: 990px;
+    }
+}

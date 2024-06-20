@@ -1,0 +1,33 @@
+.gallery{
+    background-color:#140c0c;
+    &_title{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: #cfc3c3;
+        padding-top: 30px;
+    }
+    &_item{
+        display: flex;
+        justify-content: center;
+    }
+    &_items{
+        text-align: center;
+        padding-top: 25px;
+    }
+    &_img{
+        width: 650px;
+        height: 400px;
+        padding-right: 30px;
+    }
+    &_img2{
+        width: 650px;
+        height: 400px;
+    }
+    &_text{
+        padding-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #cfc3c3;
+    }
+}

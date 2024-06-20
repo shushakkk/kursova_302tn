@@ -1,0 +1,101 @@
+.container{
+    padding: 0;
+}
+
+nav{
+    background-color: #6e1414;
+    height: 55px;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 13px 100px;
+    list-style-type: none;
+    &_img{
+        transform: translateY(-25px);
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-right: 2px solid black;
+    }
+    &_button{
+        border: none;
+        color: #cfc3c3;
+        background-color: #6e1414;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+    &_item{
+        border-right: 2px solid black;
+        padding-right: 60px;
+        &:last-child{
+            border: none;
+        }
+        &:first-child{
+            padding-right: 90px;
+        }
+    }
+}
+
+.hamburger{
+    display: none   ;
+}
+
+.content{
+    background-color:#140c0c;
+    min-height: 800px;
+    &_title{
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 15px;
+        color: #cfc3c3;
+        text-align: center;
+    }
+    &_subtitle{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding-top: 15px;
+        color: #cfc3c3;
+        text-align: center;
+    }
+    &_text{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding-top: 15px;
+        color: #cfc3c3;
+        text-align: center;
+    }
+    &_img{
+        padding-top: 45px;
+        display: block;
+        margin: 0 auto;
+    }
+    &_warning{
+        padding-top: 320px;
+        display: flex;
+        justify-content: center;
+
+        &_photo{
+            height: 30px;
+            width: 80px;
+        }
+        &_write{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #cfc3c3;
+        }
+    }
+}
+
+.footer{
+    background-color: #6e1414;
+    height: 82px;
+    &_text{
+        color: #cfc3c3;
+        text-align: right;
+        padding-top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

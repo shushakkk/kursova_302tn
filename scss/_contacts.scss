@@ -1,0 +1,23 @@
+.contacts{
+    background-color:#140c0c;
+    text-align: end;
+    &_title{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: #cfc3c3;
+        padding: 20px 0;
+    }
+    &_addr{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #cfc3c3;
+        padding-top: 20px;
+    }
+    &_phone{
+        color: #cfc3c3
+    }
+    &_email{
+        color: #cfc3c3
+    }
+}
